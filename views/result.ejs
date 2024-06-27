@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        display: flex;
+        margin: 60px;
+    }
+    ul li{
+        font-size: larger;
+    }
+    img{
+        height: 400px;
+        width: 250px;
+    }
+    ul{
+        padding: 40px;
+    }
+</style>
+<body>
+    <div class="Hello">
+   
+    <img src="<%= details.Poster %>" alt="<%= details.Title %> Poster" style="max-width: 100%;">
+</div>
+    <ul>
+    <li><%= details.Title %></li>
+    <li><%= details.Year %></li>
+    <li><%= details.Rated %></li>
+    <li> <%= details.Released %></li>
+    <li><%= details.Runtime %></li>
+    <li><%= details.Genre %></li>
+    <li><%= details.Director %></li>
+    <li><%= details.Writer %></li>
+    <li><%= details.Actors %></li>
+    <li><%= details.Plot %></li>
+    <li><%= details.Language %></li>
+    <li><%= details.Country %></li>
+    <li><%= details.Awards %></li>
+    <li><%= details.BoxOffice %></li>
+</ul>
+</body>
+</html>
